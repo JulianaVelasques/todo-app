@@ -1,9 +1,11 @@
+import { InputTodo } from './components/InputTodo';
+
 function App() {
   return (
-    <div className="App">
-      <h1 className="text-3xl font-bold font-josefin-sans underline">
-        Hello world!
-      </h1>
+    <div className="flex items-center justify-center font-josefin-sans ">
+      <div>
+        <InputTodo />
+      </div>
     </div>
   );
 }

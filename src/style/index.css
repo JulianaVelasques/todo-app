@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-light-mode dark:bg-dark-mode;
+}
+
+/* .checkbox::before {
+  content: '';
+  display: none;
+  position: absolute;
+  top: 62%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 55%;
+  height: 55%;
+  pointer-events: none;
+  background-image: url('../assets/icon-check.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.checkbox:checked::before {
+  display: block;
+} */
